@@ -16,7 +16,8 @@
 		,mobile
 		,telephone
 		,is_confirm
+		,psw_complexity
     )
-    VALUES (#{userName}, #{realName}, #{privileges},#{password},#{mobile},#{telephone},#{isConfirm})
+    VALUES (#{userName}, #{realName}, #{privileges},#{password},#{mobile},#{telephone},#{isConfirm},#{pswComplexity})
   </insert>
 </mapper>

@@ -43,6 +43,9 @@ public class AdAdminBean implements Serializable{
 	
 	/**用户是否删除，0为正常*/
 	private int status = 0 ;
+	
+	/**密码复杂性*/
+	private int pswComplexity = 0 ;
 
 	public int getId() {
 		return id;
@@ -122,6 +125,14 @@ public class AdAdminBean implements Serializable{
 
 	public void setStatus(int status) {
 		this.status = status;
+	}
+
+	public int getPswComplexity() {
+		return pswComplexity;
+	}
+
+	public void setPswComplexity(int pswComplexity) {
+		this.pswComplexity = pswComplexity;
 	}
 	
 }
